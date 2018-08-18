@@ -1,0 +1,516 @@
+*
+{
+	font-family: 'Cairo', sans-serif;
+
+}
+body
+{
+	margin: auto;
+	height: 3000px;
+}
+.container 
+{
+	width: 1170px;
+	margin: auto;
+}
+.clearfix
+{
+	clear: both;
+}
+/*start header */
+.header .slider
+{
+	background-color: #EEE;
+	height: 800px;
+	background-image: url(man.jpg);
+	background-size: cover;
+	
+	height: 600px;
+}
+.header .slider .intro
+{
+	text-align: center;
+	color: #FFF;
+	 padding-top: 200px;
+	
+}
+.header .slider .intro h2
+{
+	border-top:4px solid #FFF;
+	border-bottom:4px solid #FFF;
+	margin: 0 auto;
+	font-size: 50px;
+	width: 600px;
+	padding: 5px 0;
+}
+.header .slider .intro button
+{
+	background-color: transparent;
+	color:#FFF;
+
+	margin-top: 30px;
+	font-size: 20px;
+	border: 2px solid #fff;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+.header .navbar 
+{
+	background-color:#252f31;
+	color: #FFF;
+	overflow: hidden;
+}
+.header .navbar h2
+{
+float: left;
+}
+.header .navbar h2 span
+{
+	color: #2ecc71;
+}
+.header .navbar ul 
+{
+	list-style: none;
+	padding-left: 0px;
+	overflow:hidden;
+	float: right;
+}
+.header .navbar ul li
+{
+	float: left;
+	padding: 10px;
+}
+.header .navbar ul li a
+{
+	color: #FFF;
+	text-decoration: none;
+	
+}
+
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover
+{
+color:#30b576;
+}
+
+
+/*end header */
+/* start features */
+.features 
+{
+	overflow: hidden;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+.features .feat 
+{
+	float: left;
+	width: 33.3%;
+	height: 150px;
+}
+.features .feat h2 
+{
+	color: #555;
+}
+.features .feat  p
+{
+	line-height: 1.7;
+	color: #888;
+	padding: 20px 0 0 ;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+/* end features */
+/*start about me */
+.about-me
+{
+	background-color: #f2f2f2;
+	overflow: hidden;
+}
+.about-me .image 
+{
+	float: left;
+	width: 40%;
+}
+.about-me .image img
+{
+	width: 100%;
+}
+.about-me .info
+{
+	float: left;
+	width: 60%;
+}
+.about-me .info h2
+{
+	margin: 30px 0 20px 40px; 
+}
+.about-me .info p 
+{
+line-height: 1.6;
+	color: #666;
+}
+.about-me .info > p
+{
+	margin-top: 30px;
+	line-height: 1.7;
+	color: #666;
+	margin: 0 0 10px 40px;
+}
+.about-me .info > p:last-of-type
+{
+	margin: 20px 0 10px 40px;
+}
+
+.about-me .info .hobbies
+{
+	overflow: hidden;
+	margin: 15px 0 0 40px;
+}
+.about-me .info .hobbies .content h3
+{
+	color: #666;
+}
+.about-me .info .hobbies .content
+{
+	float: left;
+	width: 50%;
+	min-height: 100px;
+	overflow:hidden;
+}
+.about-me .info .hobbies .content .icon
+{
+	float: left;
+	max-width: 12%;
+	margin-right: 5%;
+}
+.about-me .info .hobbies .content .text
+{
+	float: left;
+	width: 83%;
+}
+.icon img
+{
+	max-width: 100%;
+	margin: 40px 10px 0 0 ;
+}
+/*end  about me */
+/*start my skils */
+.my-skills
+{
+	padding-top: 30px;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.my-skills .skills,
+.my-skills .progress
+{
+	width: 50%;
+	float: left;
+}
+.my-skills .skills h2
+{
+	margin: 25px 0 20px 40px;
+	color: #555;
+}
+.my-skills .skills p 
+{
+margin: 0 0 10px 40px;
+	line-height: 1.6;
+	color: #666;
+}
+
+.my-skills .skills p:last-of-type
+{
+	margin-top: 25px;
+}
+.my-skills .skills button
+{
+
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.my-skills .progress .technique 
+{
+	margin-left: 50px;
+}
+.my-skills .progress .technique h3
+{
+	color: a555;
+}
+.my-skills .progress .technique div
+{
+	background-color: #f2f2f2;
+	height: 30px;
+}
+.my-skills .progress .technique div span
+{
+	background-color: #2dcc70;
+	
+	height: 100%;
+	display: block;
+	line-height:25px;
+	text-align: right;
+	color: white;
+	font-weight: bold;
+}
+
+/* end my skills*/
+/*start resume*/
+.resume 
+{
+background-color: #f2f2f2;
+	padding-top: 50px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+.resume h2
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #666;
+}
+.resume p
+{
+	line-height: 1.6;
+	color: #666;
+	padding: 0 40px;
+}
+
+.resume button
+{
+	margin-top:20px; 
+}
+
+/*end resueme*/
+/*start my education*/
+.my-education
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+.my-education .main
+{
+	width: 50%;
+	margin-right: 5%;
+	float: left;
+}
+.my-educaton .main  h2
+{
+	margin: 25px 0 20px 40px;
+	color: #555;
+}
+.my-education .main p 
+{
+margin: 0 0 10px 40px;
+	line-height: 1.6;
+	color: #666;
+}
+
+.my-ducation .main p:last-of-type
+{
+	margin-top: 25px;
+}
+.my-education .exp
+{
+	width: 45%;
+	float: left;
+}
+.my-education .exp h3
+{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.my-education .exp h3 span
+{
+	display: block;
+	margin-bottom: 10px;
+}
+.my-education .exp span:first-of-type{
+	color: #999;
+	display: block;
+}
+.my-education .exp span:last-of-type{
+	background-color: #2dcc70;
+	color: #fff;
+	display: inline-block;
+	padding: 2px 10px;
+}
+.my-education hr
+{
+	margin: 20px 0 ;
+	background-color: #999;
+}
+.my-education .exp p
+{
+	line-height: 1.7;
+	color: #888;
+	
+}
+/*end my educaiotn*/
+/*start my testimonial*/
+.testimonials
+{
+background-color: #f2f2f2;
+	padding-top: 50px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+.testimonials q
+
+{
+
+	color: #666;
+	font:italic bold 18px/1.8 Arial;
+}
+.testimonials h3
+{
+	color: #777;
+	margin-bottom: 30px;
+}
+.testimonials ul
+{
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+	
+}
+.testimonials ul li
+{
+	width: 20px;
+	height: 20px;
+	border: 2px solid #2dcc70;
+	border-radius: 50%;
+	display: inline-block;
+	cursor: pointer;
+	
+	
+}
+.testimonials ul li.active 
+{
+	background-color:#2dcc70;
+		
+}
+.testimonials ul li:hover
+{
+	background-color:#2dcc70;
+		
+}
+
+
+/* endmy testimonial*/
+/*start portofolio*/
+.portofolio
+{
+	padding-top: 50px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+.portofolio .our-work
+{
+	overflow: hidden;
+	
+}
+.portofolio h2
+{
+	color: #777;
+}
+.portofolio p
+{
+	line-height:1.7;
+	color: #666;
+	margin-bottom:30px;
+}
+
+.portofolio .our-work > div
+{
+	float: left;
+	width: 33.3%;
+	margin-bottom: 10px;
+	
+}
+.portofolio .our-work > div img
+{
+	width: 92%;
+	margin: 10px;
+	padding: 3px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	box-shadow: 10px 10px 120px #CCC;
+}
+
+/*end portofolio*/
+/*start contact me*/
+.contact-me
+{
+	background-color: #252f31;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+.contact-me h2
+{
+	margin-left: 40px;
+	color: #fff;
+}
+.contact-me p
+{
+	color: #6a6e71;
+	margin-left: 40px;
+	line-height: 1.7;
+}
+.contact-me p strong
+{
+	color: #d1d6da
+}
+.contact-me .info
+{
+	float: left;
+	margin-right: 5%;
+	width: 50%;
+}
+
+.contact-me .form
+{
+width: 45%;	
+float: left;
+}
+.contact-me .form label
+{
+	display: block;
+	color: #d1d6da;
+	margin-bottom: 10px;
+}
+.contact-me .form input[type="text"]
+
+{
+	background-color: #4B5557;
+	
+	color: #fff;
+	padding: 10px;
+}
+/*end contact me*/
+/*start footer*/
+.footer
+{
+	background-color: #191e22;
+	color: #6a6e71;
+	padding: 20px 0;
+	text-align: center;
+	
+}
+/*end footer*/
+/*start my frame work*/
+.mybutton
+{
+	background-color:transparent;
+	border: 3px solid #2dcc70;
+	padding: 10px 30px;
+	color:  #2dcc70;
+	font-weight: bold;
+
+}
+/*end my framword*/
+/*video number 10 */
