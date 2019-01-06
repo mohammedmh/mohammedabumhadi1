@@ -24,6 +24,8 @@ body
 }
 .typewrite
 {
+	
+	
 	text-decoration: none;
 	color: white;
 	font-weight: 700;
@@ -155,6 +157,7 @@ color:#30b576;
 	line-height: 1.7;
 	padding: 20px 0 0 ;
 	overflow: hidden;
+	color:black;
 	word-wrap: break-word;
 }
 .features .feat ol li 
@@ -250,7 +253,6 @@ line-height: 1.6;
 .my-skills .skills h2
 {
 	margin: 25px 0 20px 40px;
-	color: #555;
 }
 .my-skills .skills p 
 {
@@ -279,7 +281,6 @@ margin: 0 0 10px 40px;
 }
 .my-skills .progress .technique div
 {
-	background-color: #f2f2f2;
 	height: 30px;
 }
 .my-skills .progress .technique div span
@@ -298,7 +299,6 @@ margin: 0 0 10px 40px;
 /*start resume*/
 .resume 
 {
-background-color: #f2f2f2;
 	padding-top: 50px;
 	padding-bottom: 70px;
 	text-align: center;
@@ -307,12 +307,10 @@ background-color: #f2f2f2;
 {
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #666;
 }
 .resume p
 {
 	line-height: 1.6;
-	color: #666;
 	padding: 0 40px;
 }
 
@@ -338,13 +336,11 @@ background-color: #f2f2f2;
 .my-educaton .main  h2
 {
 	margin: 25px 0 20px 40px;
-	color: #555;
 }
 .my-education .main p 
 {
 margin: 0 0 10px 40px;
 	line-height: 1.6;
-	color: #666;
 }
 
 .my-ducation .main p:last-of-type
@@ -367,7 +363,6 @@ margin: 0 0 10px 40px;
 	margin-bottom: 10px;
 }
 .my-education .exp span:first-of-type{
-	color: #999;
 	display: block;
 }
 .my-education .exp span:last-of-type{
@@ -391,7 +386,6 @@ margin: 0 0 10px 40px;
 /*start my testimonial*/
 .testimonials
 {
-background-color: #f2f2f2;
 	padding-top: 50px;
 	padding-bottom: 70px;
 	text-align: center;
@@ -400,12 +394,10 @@ background-color: #f2f2f2;
 
 {
 
-	color: #666;
 	font:italic bold 18px/1.8 Arial;
 }
 .testimonials h3
 {
-	color: #777;
 	margin-bottom: 30px;
 }
 .testimonials ul
@@ -518,23 +510,19 @@ float: left;
 .contact-me .form label
 {
 	display: block;
-	color: #d1d6da;
 	margin-bottom: 10px;
 }
 .contact-me .form input[type="text"]
 
 {
-	background-color: #4B5557;
 	
-	color: #fff;
 	padding: 10px;
 }
 /*end contact me*/
 /*start footer*/
 .footer
 {
-	background-color: #191e22;
-	color: #6a6e71;
+
 	padding: 20px 0;
 	text-align: center;
 	
@@ -543,10 +531,8 @@ float: left;
 /*start my frame work*/
 .mybutton
 {
-	background-color:transparent;
 	border: 3px solid #2dcc70;
 	padding: 10px 30px;
-	color:  #2dcc70;
 	font-weight: bold;
 
 }
