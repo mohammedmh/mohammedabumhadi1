@@ -531,9 +531,9 @@ float: left;
 /*start my frame work*/
 .mybutton
 {
-	border: 3px solid ;
-	padding: 10px 30px;
-	font-weight: bold;
+	border : 1px solid #FFF;
+	color:white;
+	padding: 8px 25px;
 
 }
 /*end my framword*/
