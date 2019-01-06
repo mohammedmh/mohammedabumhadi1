@@ -4,6 +4,20 @@
 	font-family: 'Cairo', sans-serif;
 
 }
+p{
+color:black !important;
+}
+span
+{
+	color:black !important;
+	background-color:white !important;
+}
+button , strong , 
+{
+	color:black !important;
+	background-color:white !important;
+}
+
 body
 {
 	margin: auto;
